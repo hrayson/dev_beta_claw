@@ -1,10 +1,16 @@
-# dev_beta_claw
+# Sensorimotor beta bursts from infancy to adulthood
 
-Analysis code for analysing beta bursts in infant and adult EEG data. 
+Analysis code for analysing beta bursts in infant and adult EEG data.
 
-> Rayson, H, Szul, MJ, El-Khoueiry, P, Debnath, R, Gautier-Martins, M, Ferrari, PF, Fox, N, Bonaiuto, JJ<br>
-> **Bursting with potential: how sensorimotor beta bursts develop from infancy to adulthood**<br>
-> Journal of Neuroscience 2023, https://www.jneurosci.org/content/43/49/8487.abstract
+## Paper
+
+Rayson, H., Szul, M. J., El-Khoueiry, P., Debnath, R., Gautier-Martins, M., Ferrari, P. F., Fox, N., & Bonaiuto, J. J. (2023). [Bursting with Potential: How Sensorimotor Beta Bursts Develop from Infancy to Adulthood](https://doi.org/10.1523/JNEUROSCI.0886-23.2023). *Journal of Neuroscience*.
+
+[Canonical analysis repository](https://github.com/danclab/dev_beta_claw)
+
+## Code
+
+[`preprocessing/`](preprocessing/) contains EEG and behavioural preprocessing. The `analysis_01_*` through `analysis_05_*` files cover lagged coherence, power spectra, time–frequency analysis and burst extraction. The `plot_figure*.ipynb` notebooks generate paper figures. Set the study data and output paths before running the pipeline.
 
 ## Requirements - MATLAB
 * MATLAB vR2018a
